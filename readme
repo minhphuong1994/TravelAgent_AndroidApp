@@ -1,0 +1,6 @@
+# TravelAgent_AndroidApp
+
+Perform showing tours and price
+User can book tour and date 
+The booking will be saved to SQLite
+User can review receipt afterward

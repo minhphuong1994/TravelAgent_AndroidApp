@@ -1,0 +1,59 @@
+{ "Phuong":[
+    {
+      "id": "1",
+      "name": "Tower of London",
+      "address": "Tower Bridge Road, London SE1 2UP",
+      "price": "£25",
+      "photo": "tower_of_london",
+      "description": "An iconic London landmark and one of Britain's best loved historic sites, Tower Bridge is open to the public 363 days a year. Within the Bridge's iconic structure and magnificent Victorian Engine rooms, the Tower Bridge Exhibition is the best way of exploring the most famous bridge in the world!"
+    },
+    {
+      "id": "2",
+      "name": "Kings Cross",
+      "address": "King's Cross neighbourhood, London N1C 4BH England",
+      "price": "FREE",
+      "photo": "kings_cross_st_pancras",
+      "description": "Discover 67 acres of history, culture, shopping, dining, music, parks and wildlife nestled beside King’s Cross and St Pancras stations. King’s Cross is London’s ultimate foodie and fashion hotspot."
+    },
+    {
+      "id": "3",
+      "name": "London Eye",
+      "address": "Westminster Bridge Road Riverside Building, County Hall, London, England",
+      "price": "£40",
+      "photo": "london_eye",
+      "description": "A trip on the London Eye is truly captivating, a ‘must-do’ and has been London’s number one visitor experience for over a decade. Elegantly rotating over the River Thames and less than a five minute stroll from Waterloo station along the beautiful Southbank. Step into your capsule and feel the exhilaration as you rise up over the Thames."
+    },
+    {
+      "id": "4",
+      "name": "The Shard",
+      "address": "32 London Bridge St, London SE1 9SG, United Kingdom",
+      "price": "£28",
+      "photo": "the_shard_1",
+      "description": "The Shard, also referred to as the Shard of Glass, Shard London Bridge and formerly London Bridge Tower, is a 72-storey skyscraper, designed by the Italian architect Renzo Piano."
+    },
+    {
+      "id": "5",
+      "name": "Camden Market",
+      "address": "54-56 Camden Lock Pl, Camden Town, London NW1 8AF, United Kingdom",
+      "price": "FREE to enter.",
+      "photo": "camden_market_1",
+      "description": "Camden Town is famed for its market, a warren of fashion and curiosities by the Regent’s Canal. A haven of counter culture, the area is popular with tourists, teenagers and punks. The thriving nightlife scene includes live music in alternative clubs and old-school pubs, and major stars playing at the Jazz Cafe and the Roundhouse."
+    },
+     {
+      "id": "6",
+      "name": "Wembley Stadium",
+      "address": "London HA9 0WS, United Kingdom",
+      "price": "Event pricing in effect.",
+      "photo": "wembly_1",
+      "description": "Wembley is one of the most famous stadium’s in the world. It is a world class venue that attracts some of the biggest events in sport, music and entertainment and more than 2 million visitors per year."
+    },
+    {
+      "id": "7",
+      "name": "Hyde Park",
+      "address": "London W2 2UH England",
+      "price": "FREE",
+      "photo": "hyde_park_memorial",
+      "description": "Once the hunting ground for Henry VIII, this large royal park is best known for its famous Speakers' Corner, where people speak their minds, Rotton Row, a famous horse-riding area and Serpentine Lake, home to waterfowl and oarsmen."
+    }
+  ]
+}

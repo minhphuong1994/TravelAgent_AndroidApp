@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".ViewAttractionActivity"
+    android:paddingTop="20dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/tower_of_london" />
+
+    <TextView
+        android:id="@+id/tvAttractionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Big Ben"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:id="@+id/tvAttractionAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="1234 Main Street"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:id="@+id/tvAttractionPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="$25"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/etBookingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dec 12 2020"/>
+    <EditText
+        android:id="@+id/etNumGuests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number of guests"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GO BACK"
+            android:onClick="backButtonPressed"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOK TOUR"
+            android:onClick="bookTourPressed"/>
+    </LinearLayout>
+</LinearLayout>
